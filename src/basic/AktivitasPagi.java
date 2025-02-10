@@ -1,3 +1,5 @@
+package basic;
+
 import java.util.Scanner;
 
 public class AktivitasPagi {
@@ -19,5 +21,6 @@ public class AktivitasPagi {
         System.out.printf("2. %s\n", aktivitas2);
         System.out.printf("3. %s\n", aktivitas3);
 
+        input.close();
     }
 }

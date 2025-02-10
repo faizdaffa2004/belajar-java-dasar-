@@ -1,3 +1,5 @@
+package basic;
+
 import java.util.Scanner;
 
 public class balikKarakter {
@@ -18,6 +20,8 @@ public class balikKarakter {
         System.out.print(c + " ");
         System.out.print(b + " ");
         System.out.print(a);
+
+        input.close();
 
     }
 }

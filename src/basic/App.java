@@ -1,3 +1,5 @@
+package basic;
+
 import java.util.Scanner;
 
 public class App {
@@ -14,6 +16,8 @@ public class App {
         l = input.nextInt();
         luas = p * l;
         System.out.println("luas = " + luas);
+
+        input.close();
 
     }
 }

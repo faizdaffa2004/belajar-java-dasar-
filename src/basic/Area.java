@@ -1,3 +1,5 @@
+package basic;
+
 import java.util.Scanner;
 
 public class Area {
@@ -20,5 +22,7 @@ public class Area {
         System.out.printf("QUADRADO: %.3f\n", luasPersegi);
         luasPersegiPanjang = a * b;
         System.out.printf("RETANGULO: %.3f\n", luasPersegiPanjang);
+
+        input.close();
     }
 }

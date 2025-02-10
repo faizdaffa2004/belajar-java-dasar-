@@ -22,6 +22,8 @@ public class Latihan7 {
             System.out.printf("angka terbesar adalah: %d\n", angka3);
         }
 
+        input.close();
+
         // angka1, angka2, dan angka3
         // 70, 5, 2
 

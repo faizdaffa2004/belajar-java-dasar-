@@ -1,3 +1,5 @@
+package basic;
+
 import java.util.Scanner;
 
 public class Average1 {
@@ -10,6 +12,8 @@ public class Average1 {
         b = input.nextDouble();
         MEDIA = (a * 3.5 + b * 7.5) / 11;
         System.out.printf("MEDIA = %.5f", MEDIA);
+
+        input.close();
 
     }
 }

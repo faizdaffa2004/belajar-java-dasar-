@@ -1,3 +1,5 @@
+package basic;
+
 import java.util.Scanner;
 
 public class Banknotes {
@@ -29,6 +31,6 @@ public class Banknotes {
         System.out.printf("%d nota(s) de R$ 2,00\n", lembaran2);
         System.out.printf("%d nota(s) de R$ 1,00\n", lembaran1);
 
-        input.close
+        input.close();
     }
 }
