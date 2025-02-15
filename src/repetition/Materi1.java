@@ -85,7 +85,17 @@ public class Materi1 {
         for (int i = 10; i > 0; i--) {
             System.out.println(i);
         }
-
+        // i=10 10>0 true print 10
+        // i=9 9>0 true print 9
+        // i=8 8>0 true print 8
+        // i=7 7>0 true print 7
+        // i=6 6>0 true print 6
+        // i=5 5>0 true print 5
+        // i=4 4>0 true print 4
+        // i=3 3>0 true print 3
+        // i=2 2>0 true print 2
+        // i=1 1>0 true print 1
+        // i=0 0>0 false
         input.close();
     }
 }
